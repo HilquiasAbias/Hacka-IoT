@@ -85,6 +85,6 @@ class DigitalPhotoFrame:
 
 if __name__ == "__main__":
     # Substitua pelo URL do seu endpoint que retorna os momentos com imagens
-    endpoint = "https://seu-endpoint.com/api/moments"
+    endpoint = "http://192.168.128.66:1880/get-users"
     app = DigitalPhotoFrame(endpoint)
     app.run()
